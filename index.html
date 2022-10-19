@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/01b84e0864.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Fun&Tonic</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="div"></div>
+
+    <hr class="h" />
+
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a href="index.html"><img src="images/logo.png" class="logo" /></a>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portofolio">Portofolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Musical Duo</p>
+          <h1>
+            Hello, and<br />
+            welcome to <span>Fun</span>&<span>Tonic</span>!
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!------------- about ------------->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.jpeg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Us</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+              voluptatum laborum numquam blanditiis harum quisquam eius sed odit
+              fugiat iusto fuga praesentium optio, eaque rerum! Provident
+              similique accusantium nemo autem. Veritatis obcaecati tenetur iure
+              eius earum ut molestias architecto voluptate aliquam nihil,
+              eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+              tenetur error, harum nesciunt ipsum debitis quas aliquid.
+              Reprehenderit, quia.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Skill 1</span><br />Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                </li>
+                <li>
+                  <span>Skill 2</span><br />Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                </li>
+                <li>
+                  <span>Skill 3</span><br />Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Experience 1</span><br />Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                </li>
+                <li>
+                  <span>Experience 2</span><br />Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                </li>
+                <li>
+                  <span>Experience 3</span><br />Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Education 1</span><br />Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                </li>
+                <li>
+                  <span>Education 2</span><br />Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                </li>
+                <li>
+                  <span>Education 3</span><br />Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------- services ------------->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="subtitle">Our Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-music"></i>
+            <h2>Service 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-tiktok"></i>
+            <h2>Service 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-champagne-glasses"></i>
+            <h2>Service 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------- Portofolio ------------->
+
+    <div id="portofolio">
+      <div class="container">
+        <h1 class="subtitle">Our Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>Titlu legat de poza</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas vel sint commodi
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>Titlu legat de poza</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas vel sint commodi
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Titlu legat de poza</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas vel sint commodi
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!------------- Contact ------------->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Us</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+            <p><i class="fa-solid fa-phone"></i>0740523649</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.youtube.com/" target="_blank"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a href="https://www.twitter.com/" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form action="mail.php" method="post">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="text"
+                name="mail"
+                placeholder="Your E-Mail"
+                required
+              />
+              <input type="text" name="subject" placeholder="Subject" />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright © Luca Dumitru</p>
+      </div>
+    </div>
+
+    <!------------- JavaScript ------------->
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
